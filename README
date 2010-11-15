@@ -7,7 +7,7 @@ reference the parent layout from a child layout
 
 reference the child layout from a view 
 
-define the section in the parent layout
+define the section in the view, the section is rendered from the parent layout
 
 throws an error
 
