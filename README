@@ -1,0 +1,17 @@
+
+Is this a defect with Razor nested layouts?
+
+'render' an optional section in a parent layout
+
+reference the parent layout from a child layout
+
+reference the child layout from a view 
+
+define the section in the parent layout
+
+throws an error
+
+	The following sections have been defined but have not been rendered for the layout page "~/Views/Sample/_LayoutChild.cshtml": "HtmlHead".
+	
+
+
