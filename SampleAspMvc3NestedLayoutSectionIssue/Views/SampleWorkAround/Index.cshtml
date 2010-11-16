@@ -1,0 +1,30 @@
+﻿@{
+    Layout = "~/Views/SampleWorkAround/_LayoutChild.cshtml";
+}
+
+<h3>
+    This is /sampleworkaround/index
+</h3>
+
+@section HtmlHead {
+    <style type="text/css">
+        body {
+            color: green;
+        }
+    </style>
+}
+
+<p>
+    '_LayoutParent' renders section 'HtmlHead'
+</p>
+<p>
+    defining 'HtmlHead' in this view works when we directly use the layout of '_LayoutParent'
+</p>
+<p>
+    but if we change the layout to '_LayoutChild' (which is nested under '_LayoutParent')
+    it will throw a runtime error 
+</p>
+
+<pre style="font-style: italic; width: 360px">
+    The following sections have been defined but have not been rendered for the layout page "~/Views/Sample/_LayoutChild.cshtml": "HtmlHead".
+</pre>

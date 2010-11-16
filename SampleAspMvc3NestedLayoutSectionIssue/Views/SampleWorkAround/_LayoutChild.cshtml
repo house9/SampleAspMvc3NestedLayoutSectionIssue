@@ -1,0 +1,13 @@
+﻿@{
+    Layout = "~/Views/SampleWorkAround/_LayoutParent.cshtml";
+}
+
+@section HtmlHead {  
+    @RenderSection("HtmlHead", false)  
+}
+
+<h2>
+    This is "~/Views/SampleWorkAround/_LayoutChild.cshtml"
+</h2>
+
+@RenderBody()
